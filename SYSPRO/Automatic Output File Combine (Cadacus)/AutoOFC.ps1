@@ -12,13 +12,18 @@ $sysproExe = "C:\SYSPRO\PATH\SYSPROAuto.exe"
 
 
 ## SYSPRO Credentials & Parameters
-# Replace the below as needed.
+# Replace with Operator to sign in as.
 $operator = "OPER"
+# Replace with Operator Password.
 $opPass = "PASS"
+# Replace with Company Code to sign into.
 $comp = "C"
+# Replace with Company Password.
 $cPass = "PASS"
+# Program code for Cadacus EDI\Output File Combine.
 $prog = "EDI040"
-$link = "Enterprise:NOREPORT"
+# Replace 'COMPATH' with Communications Path you would like to 'Output File Combine' as defined in Cadacus/SYSPRO.
+$link = "COMPATH:NOREPORT"
 
 
 ## Email paremeters for error notification
